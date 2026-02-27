@@ -1,0 +1,14 @@
+title: "[❓ Q&A] Your question / Votre question"
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Posez votre question ici (FR/EN). Indiquez du contexte et ce que vous avez déjà essayé.
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: What do you want to know? / Quelle est votre question ?
+      placeholder: "Describe your question here…"
+      required: true

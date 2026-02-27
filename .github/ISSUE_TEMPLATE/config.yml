@@ -1,0 +1,7 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Questions & Discussions
+    url: https://github.com/couret-interia/community/discussions/new?category=general
+    about: Ask a question or start a conversation in our public forum.
+  - name: ❓ Questions / FR
+    url: https://github.com/couret-interia/community/discussions/new?category=general

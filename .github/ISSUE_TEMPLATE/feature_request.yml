@@ -1,0 +1,26 @@
+name: "💡 Feature request / Proposition d’amélioration"
+description: Suggest a new feature or enhancement
+labels: ["enhancement"]
+assignees: []
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / Problème
+      description: What problem would this feature solve?
+      placeholder: |
+        E.g. "We need a template for…"
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution / Proposition
+      description: Describe the idea, API, UX, or workflow.
+      placeholder: |
+        E.g. "Add a CLI flag `--foo` that does…"
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact
+      description: Who benefits? Any risks or alternatives?

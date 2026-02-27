@@ -1,0 +1,32 @@
+{
+  "astro_format": {
+    "ok": true,
+    "issues": []
+  },
+  "fs_sanity": {
+    "ok": true,
+    "issues": []
+  },
+  "json_yaml": {
+    "ok": true,
+    "issues": []
+  },
+  "latex": {
+    "ok": true,
+    "issues": [
+      "No .tex files found; skipping LaTeX lint."
+    ]
+  },
+  "markdown": {
+    "ok": true,
+    "issues": []
+  },
+  "text_style": {
+    "ok": true,
+    "issues": []
+  },
+  "versioning": {
+    "ok": true,
+    "issues": []
+  }
+}

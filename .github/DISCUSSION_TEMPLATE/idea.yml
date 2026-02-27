@@ -1,0 +1,25 @@
+title: "[💡 Idea] Nouvelle idée / Proposition"
+labels: ["idea"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        💡 **Proposez une idée, amélioration ou perspective**
+        *(FR/EN welcome — soyez concis, décrivez le contexte et l’impact attendu.)*
+  - type: textarea
+    id: idea
+    attributes:
+      label: Idea / Idée
+      description: Describe your concept or feature.
+      placeholder: "Describe your idea..."
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Motivation / Contexte
+      description: What problem would this solve? / Pourquoi est-ce utile ?
+  - type: textarea
+    id: implementation
+    attributes:
+      label: Implementation / Mise en œuvre
+      description: Possible steps or sketches of implementation.

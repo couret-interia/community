@@ -1,0 +1,43 @@
+name: "🐞 Bug report / Signalement de bug"
+description: Report a reproducible problem / Signaler un comportement inattendu
+labels: ["bug"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time! / Merci 🙏
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug / Décrivez le problème
+      description: What happened? What did you expect?
+      placeholder: |
+        E.g. "When running `make journal-pdf`, I see error XYZ..."
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce / Étapes pour reproduire
+      description: Minimal steps to reproduce the bug.
+      placeholder: |
+        1. …
+        2. …
+        3. …
+    validations:
+      required: true
+  - type: textarea
+    id: env
+    attributes:
+      label: Environment / Environnement
+      description: OS, tool versions, commit SHA, etc.
+      placeholder: |
+        - OS:
+        - Python/TeXLive versions:
+        - Git SHA:
+  - type: textarea
+    id: attachments
+    attributes:
+      label: Logs or screenshots / Journaux & captures
+      description: Attach or paste relevant logs or screenshots.

@@ -1,0 +1,25 @@
+title: "[🎨 Showcase] Exemple / Démonstration"
+labels: ["showcase"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        🎨 **Montrez votre travail, expérimentation ou visualisation**
+        *(EN/FR — vous pouvez joindre images, code, figures, PDF, etc.)*
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Briefly describe what you’re showcasing.
+      placeholder: "Explain what your demo illustrates..."
+      required: true
+  - type: textarea
+    id: files
+    attributes:
+      label: Links / Fichiers
+      description: Add URLs or attach resources.
+  - type: textarea
+    id: insights
+    attributes:
+      label: Insights / Observations
+      description: What did you learn or observe?
